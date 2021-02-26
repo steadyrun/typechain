@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "make blockchain with typescript",
+  "main": "index.js",
+  "repository": "https://github.com/steadyrun/typechain.git",
+  "author": "steadyrun <steadyrun@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}
