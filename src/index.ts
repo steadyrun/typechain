@@ -1,3 +1,4 @@
+// like typedef in c++
 const Gender = {
   MEN: "male",
   WOMEN: "female",
@@ -26,4 +27,5 @@ function sayHello(param: Person): void {
 
 sayHello(me);
 
+// 이게 ts 모듈화의 기본.. 이게 없으면 모든 변수/상수 선언들이 globally 선언된다나?
 export {};
